@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+header .navbar {
+  background: #8eecf5;
+  font-family: "Kanit", sans-serif;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  min-width: 100%;
+  flex-direction: column;
+}
+body main {
+  flex: 1 0 auto;
+}
+body main .card-top {
+  background-color: #f1faee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body main .card-top .card {
+  min-height: 50vh;
+  min-width: 60%;
+  margin: 3rem 0;
+  box-shadow: 18px 13px 5px 0px rgba(148, 135, 135, 0.75);
+  -webkit-box-shadow: 18px 13px 5px 0px rgba(148, 135, 135, 0.75);
+  -moz-box-shadow: 18px 13px 5px 0px rgba(148, 135, 135, 0.75);
+}
+body main .h1 {
+  font-family: "Kanit", sans-serif;
+  color: #8eecf5;
+  text-align: center;
+  text-shadow: 4px 9px 10px rgba(86, 143, 148, 0.94);
+  font-size: 50px;
+  font-weight: 600;
+}
+footer {
+  background-color: #8eecf5;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 90%;
+  }
+}/*# sourceMappingURL=style.css.map */

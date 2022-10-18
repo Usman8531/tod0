@@ -1,0 +1,60 @@
+$light:#8eecf5;
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+$font:'Kanit', sans-serif;
+$bg-clr:#f1faee;
+
+header{
+.navbar{
+    background: $light;
+    font-family: $font;
+
+}
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    min-width: 100%;
+    flex-direction: column;
+main{
+    flex: 1 0 auto;
+
+    .card-top{
+background-color: $bg-clr;
+display: flex;
+justify-content:center ;
+align-items: center;
+flex-direction: column;
+        .card{
+            min-height: 50vh;
+            min-width: 60%;
+            margin: 3rem 0;
+            box-shadow: 18px 13px 5px 0px rgba(148,135,135,0.75);
+-webkit-box-shadow: 18px 13px 5px 0px rgba(148,135,135,0.75);
+-moz-box-shadow: 18px 13px 5px 0px rgba(148,135,135,0.75);
+        }
+
+}
+.h1{
+    font-family: $font;
+    color: $light;
+    text-align: center;
+    text-shadow: 4px 9px 10px rgba(86,143,148,0.94);
+    font-size: 50px;
+    font-weight: 600;
+}
+.card-bottom{
+    
+}
+}
+
+}
+footer{
+    background-color: $light;
+}
+
+@media only screen and(max-width:600px) {
+    .card{
+        width: 90%;
+    }
+    
+}
